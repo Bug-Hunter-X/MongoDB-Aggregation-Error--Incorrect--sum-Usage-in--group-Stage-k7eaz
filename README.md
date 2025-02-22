@@ -1,0 +1,1 @@
+This repository demonstrates a common error encountered when using MongoDB's aggregation framework. The `bug.js` file contains code that incorrectly uses the `$sum` operator within the `$group` stage, attempting to sum a non-numeric field.  This leads to aggregation pipeline failure.  The corrected code, demonstrating best practices, is provided in `bugSolution.js`.
